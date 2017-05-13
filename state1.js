@@ -6,6 +6,7 @@ demo.state1.prototype = {
         game.stage.backgroundColor = '#DDDDDD';
         console.log('state1 biatch');
         addChangeStateEventListener();
+        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     },
     update: function(){}
 };
